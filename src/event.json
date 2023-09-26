@@ -1,0 +1,10 @@
+[
+    {"name": "꼬무탑 2+1", "image": "./event/event1.jpg", "isTwoPlusOne": true},
+    {"name": "오버레이젤  2+1", "image": "./event/event2.jpg", "isTwoPlusOne": true},
+    {"name": "니트젤", "image": "./event/event5.jpg", "isTwoPlusOne": false},
+    {"name": "네온젤", "image": "./event/event6.jpg", "isTwoPlusOne": false},
+    {"name": "프리미엄 베이스젤", "image": "./event/event3.jpg", "isTwoPlusOne": false},
+    {"name": "프리미엄 탑젤", "image": "./event/event4.jpg", "isTwoPlusOne": false},
+    {"name": "스프링젤", "image": "./event/event7.jpg", "isTwoPlusOne": false},
+    {"name": "탄생석젤", "image": "./event/event8.jpg", "isTwoPlusOne": true}
+]

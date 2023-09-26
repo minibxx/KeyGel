@@ -1,0 +1,6 @@
+[
+    { "photo": "./about1.png" , "title": "국내 최초 매트탑", "detail": "키젤만의 차별화된, 대체 불가한 상품들로 시장 경쟁성 확보" },
+    { "photo": "./about2.png" , "title": "네일 산업 확대", "detail": "제품에 관한 커리큘럼 제작으로 네일 아티스트 교육을 진행하며 네일 산업 확대에 기여" },
+    { "photo": "./about3.png" , "title": "인스타그램 24K 팔로워", "detail": "활발한 인스타그램 운영 @keygelkorea" },
+    { "photo": "./about4.png" , "title": "키젤마스터 1 - 4기", "detail": "마스터 10인과 4년간 협업하여 한국 최초 네일 라이브방송 진행" }
+]
