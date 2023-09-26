@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/keygel/static/css/main.16c81d7e.css",
-    "main.js": "/keygel/static/js/main.ac0b82b5.js",
-    "static/js/787.b040c3ae.chunk.js": "/keygel/static/js/787.b040c3ae.chunk.js",
-    "service-worker.js": "/keygel/service-worker.js",
-    "index.html": "/keygel/index.html",
-    "main.16c81d7e.css.map": "/keygel/static/css/main.16c81d7e.css.map",
-    "main.ac0b82b5.js.map": "/keygel/static/js/main.ac0b82b5.js.map",
-    "787.b040c3ae.chunk.js.map": "/keygel/static/js/787.b040c3ae.chunk.js.map"
+    "main.css": "/KeyGel/static/css/main.16c81d7e.css",
+    "main.js": "/KeyGel/static/js/main.a7cc4f79.js",
+    "static/js/787.b040c3ae.chunk.js": "/KeyGel/static/js/787.b040c3ae.chunk.js",
+    "service-worker.js": "/KeyGel/service-worker.js",
+    "index.html": "/KeyGel/index.html",
+    "main.16c81d7e.css.map": "/KeyGel/static/css/main.16c81d7e.css.map",
+    "main.a7cc4f79.js.map": "/KeyGel/static/js/main.a7cc4f79.js.map",
+    "787.b040c3ae.chunk.js.map": "/KeyGel/static/js/787.b040c3ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16c81d7e.css",
-    "static/js/main.ac0b82b5.js"
+    "static/js/main.a7cc4f79.js"
   ]
 }
