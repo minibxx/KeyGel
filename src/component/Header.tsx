@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import About from './About';
 import Detail from './Detail';
+import logo from '../img/logo.png'
+import cart from '../img/shopping cart.png'
+import glass from '../img/search glasses.png'
 
 
 type Props = {
@@ -21,12 +24,12 @@ const Header = (props: Props) => {
         <header className='row header'>
             <Link to="/">
               <div>
-                <img className='logo-img' src='./logo.png'></img>
+                <img className='logo-img' src={logo}></img>
               </div>
             </Link>
             <div className='row' style={{gap: "10px"}}>
-                <img src='./🦆 icon _search glasses.png'></img>
-                <img src='./🦆 icon _shopping cart_.png'></img>
+                <img src={glass}></img>
+                <img src={cart}></img>
             </div>
         </header>
         <ul className='row nav'>

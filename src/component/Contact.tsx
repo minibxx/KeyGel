@@ -6,14 +6,12 @@ const Contact = (props: Props) => {
 
   useEffect(()=>{// 지도 컴포넌트가 처음 렌더링 될 때 지도를 띄우기 위해 두 번째 인자를 [](빈배열)로 설정
     const container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
-    console.log(container);
     
     const options = { //지도를 생성할 때 필요한 기본 옵션
       center: new kakao.maps.LatLng(37.3868323, 127.125458),
       level: 3
     };
     const map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-    console.log(kakao);
 
     var marker = new kakao.maps.Marker({ 
       // 지도 중심좌표에 마커를 생성합니다 

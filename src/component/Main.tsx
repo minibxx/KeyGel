@@ -1,8 +1,16 @@
 import YouTube, { YouTubeProps } from 'react-youtube';
 
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import main1 from '../img/main/main_1.jpg';
+import main2 from '../img/main/main_2.jpg';
+import main3 from '../img/main/main_3.jpg';
+import main4 from '../img/main/main_4.jpg';
+import mainBanner1 from '../img/main/main_banner01.jpg'
+import mainBanner2 from '../img/main/main_banner02.jpg'
+import mainBanner3 from '../img/main/main_banner03.jpg'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -39,17 +47,17 @@ function Main() {
         navigation:true,
         modules:[Autoplay, Pagination, Navigation]
     }
-
+    
     return (
         <>
             <Swiper
                 {...setting}
                 className="mySwiper"
             >
-                <SwiperSlide><img className='swipers' src='./main_1.jpg'></img></SwiperSlide>
-                <SwiperSlide><img className='swipers' src='./main_2.jpg'></img></SwiperSlide>
-                <SwiperSlide><img className='swipers' src='./main_3.jpg'></img></SwiperSlide>
-                <SwiperSlide><img className='swipers' src='./main_4.jpg'></img></SwiperSlide>
+                <SwiperSlide><img className='swipers' src={main1}></img></SwiperSlide>
+                <SwiperSlide><img className='swipers' src={main2}></img></SwiperSlide>
+                <SwiperSlide><img className='swipers' src={main3}></img></SwiperSlide>
+                <SwiperSlide><img className='swipers' src={main4}></img></SwiperSlide>
             </Swiper>
 
            
@@ -72,9 +80,9 @@ function Main() {
             />
              <div className='banner'>
                 <div className='row bannerImg'>
-                    <img src='./main_banner01.jpg'></img>
-                    <img src='./main_banner02.jpg'></img>
-                    <img src='./main_banner03.jpg'></img>
+                    <img src={mainBanner1}></img>
+                    <img src={mainBanner2}></img>
+                    <img src={mainBanner3}></img>
                 </div>
             </div>
         </>

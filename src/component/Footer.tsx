@@ -1,4 +1,7 @@
 import React from 'react'
+import logo from '../img/logo.png'
+import youtube from '../img/youtube.png'
+import insta from '../img/insta.png'
 
 type Props = {}
 
@@ -26,10 +29,10 @@ const Footer = (props: Props) => {
         </div>
     </div>
     <div className='row header'>
-        <img className='logo-img' src='./logo.png'></img>
+        <img className='logo-img' src={logo}></img>
         <div className='row' style={{gap: "10px"}}>
-            <img style={{width:"30px"}} src='./🦆 icon _instagram_.png'></img>
-            <img style={{width:"30px"}} src='./🦆 icon _youtube_.png'></img>
+            <img style={{width:"30px"}} src={insta}></img>
+            <img style={{width:"30px"}} src={youtube}></img>
         </div>
     </div>
     <div style={{fontSize:"13px", marginBottom:"50px"}}>경기도 성남시 분당구 서현로 210번길 2, 205, 206호(서현동, 성지하이텔) </div>

@@ -1,10 +1,14 @@
 import React from 'react'
+import type1 from '../img/type1.png'
+import type2 from '../img/type2.png'
+import type4 from '../img/type4.png'
+import type6 from '../img/type6.png'
 
 function Type() {
     return (
         <div className='types'>
             <div className='row type'>
-                <img className='typeImg' src='./type1.png' />
+                <img className='typeImg' src={type1} />
                 <div className='typeText'>
                     <div>KOONgel 쿤젤</div>
                     <div className='typeOverview'>
@@ -16,7 +20,7 @@ function Type() {
             </div>
 
             <div className='row type'>
-                <img className='typeImg' src='./type2.png' />
+                <img className='typeImg' src={type2} />
                 <div className='typeText'>
                     <div>KNITgel 니트젤</div>
                     <div className='typeOverview'>
@@ -27,7 +31,7 @@ function Type() {
             </div>
 
             <div className='row type'>
-                <img className='typeImg' src='./type4.png' />
+                <img className='typeImg' src={type4} />
                 <div className='typeText'>
                     <div>탄생석젤</div>
                     <div className='typeOverview'>
@@ -37,7 +41,7 @@ function Type() {
             </div>
 
             <div className='row type'>
-                <img className='typeImg' src='./type6.png' />
+                <img className='typeImg' src={type6} />
                 <div className='typeText'>
                     <div>향기젤</div>
                     <div className='typeOverview'>
