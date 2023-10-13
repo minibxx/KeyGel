@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KeyGel/static/css/main.16c81d7e.css",
+    "main.css": "/KeyGel/static/css/main.c3e50236.css",
     "main.js": "/KeyGel/static/js/main.4405bf42.js",
     "static/js/787.b040c3ae.chunk.js": "/KeyGel/static/js/787.b040c3ae.chunk.js",
     "static/media/main_1.jpg": "/KeyGel/static/media/main_1.29d8bf837655d0cfa9eb.jpg",
@@ -16,12 +16,12 @@
     "static/media/main_banner03.jpg": "/KeyGel/static/media/main_banner03.75d0f138e3b4e3ec679a.jpg",
     "static/media/main_banner02.jpg": "/KeyGel/static/media/main_banner02.ae13c819382076c09464.jpg",
     "index.html": "/KeyGel/index.html",
-    "main.16c81d7e.css.map": "/KeyGel/static/css/main.16c81d7e.css.map",
+    "main.c3e50236.css.map": "/KeyGel/static/css/main.c3e50236.css.map",
     "main.4405bf42.js.map": "/KeyGel/static/js/main.4405bf42.js.map",
     "787.b040c3ae.chunk.js.map": "/KeyGel/static/js/787.b040c3ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c81d7e.css",
+    "static/css/main.c3e50236.css",
     "static/js/main.4405bf42.js"
   ]
 }
