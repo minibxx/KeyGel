@@ -1,8 +1,14 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 
 type Props = {}
 
 const MyPage = (props: Props) => {
+  const [setting, setSetting] = useState('');
+
+  const settingClcick = () => {
+    setSetting()
+  }
   return (
     <>
       <div className='profile content'>
@@ -32,6 +38,8 @@ const MyPage = (props: Props) => {
       <div>내 정보 관리</div>
       <div className='row '>
         <div><img src='./🦆 icon _setting 2_-2.png' /></div>
+        <div><img src='./🦆 icon _setting 2_-2.png' /></div>
+        <div onClick={settingClcick}><img src='./🦆 icon _setting 2_-2.png' /></div>
       </div>
     </>
   )
